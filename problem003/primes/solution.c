@@ -23,7 +23,7 @@ int main(int argc, char** argv)
     long* array = malloc(100*sizeof(long));
     int arrayIndex = 0;
     long i;
-    for (i=1;i<=maxNum/2;i++)
+    for (i=1;i<=maxNum/2;i++)//replace with a progressive multiple check
     {
         if (maxNum%i==0)
         {
